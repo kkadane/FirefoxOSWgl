@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+    <head>
+       
+        
+        
+        <link rel="stylesheet" href="ttcss.css" type="text/css" media="screen, mobile" title="main" charset="utf-8"/>
+        
+        <title>
+            Tic Tac Toe
+        </title>
+        
+        <script src="ttjs.js">
+        function myFunction()
+{
+        setTimeout(function(){alert("Hello")},3000);
+}
+        </script>
+    </head>
+    
+    <body background="ws_Brown_Texture_852x480.jpg"><script>
+var myCountdown1 = new Countdown({time:316});
+</script>
+        <div id="container" >
+            <div id="topbar" >
+                <p id="topbartext" >
+                    Nit Warangal - Tic Tac Toe
+                </p>
+            </div>
+            
+            <div id="names" style="background-color:#F4F0CB">
+                <p class="nametext">
+                    Player 1: &nbsp
+                </p>
+                
+                <input type="text" class="nameinput" id="name1" />
+                
+                <br/>
+                
+                <p class="nametext">
+                    Player 2: &nbsp
+                </p>
+                
+                <input type="text" class="nameinput" id="name2"/>
+            </div>
+            
+            <div id="mainbody" background="ws_Brown_Texture_852x480.jpg">
+                
+                <p id="caption">
+                    Press START GAME to play
+                </p>
+                
+                <div id="boxcontainer" background="ws_Brown_Texture_852x480.jpg">
+                    <div class="box" id="box1" onclick="Play('b1')">
+                        <p class="boxtext" id="b1">
+                        </p>
+                    </div>
+                    
+                    <div class="box" id="box2" onclick="Play('b2')">
+                        <p class="boxtext" id="b2">
+                        </p>
+                    </div>
+                    
+                    <div class="box" id="box3" onclick="Play('b3')">
+                        <p class="boxtext" id="b3">
+                        </p>
+                    </div>
+                    
+                    <br/>
+                    
+                    <div class="box" id="box4" onclick="Play('b4')">
+                        <p class="boxtext" id="b4">
+                        </p>
+                    </div>
+                    
+                    <div class="box" id="box5" onclick="Play('b5')">
+                        <p class="boxtext" id="b5">
+                        </p>
+                    </div>
+                    
+                    <div class="box" id="box6" onclick="Play('b6')">
+                        <p class="boxtext" id="b6">
+                        </p>
+                    </div>
+                    
+                    <br/>
+                    
+                    <div class="box" id="box7" onclick="Play('b7')">
+                        <p class="boxtext" id="b7">
+                        </p>
+                    </div>
+                    
+                    <div class="box" id="box8" onclick="Play('b8')">
+                        <p class="boxtext" id="b8">
+                        </p>
+                    </div>
+                    
+                    <div class="box" id="box9" onclick="Play('b9')">
+                        <p class="boxtext" id="b9">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="starttab" onclick="Start()">
+                <p id="starttext">
+                    START GAME
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
